@@ -128,3 +128,4 @@ RUN rm -rf /etc/apt/sources.list && \
 ENTRYPOINT ["supervisord", "-c"]
 
 CMD ["/app/supervisord.conf"]
+
